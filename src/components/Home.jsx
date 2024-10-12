@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { useEffect, useRef } from 'react'
 import Typed from 'typed.js'
-import rudraimg from '/home/rudra/driveD/web_dev/portfolio2/myPortfolio/src/assets/images/rudrapic_comp.jpeg'
+import rudraimg from '../assets/images/rudrapic_comp.jpeg'
 
 export default function Home({ isActive, scrollY }) {
   const typedRef = useRef(null)
